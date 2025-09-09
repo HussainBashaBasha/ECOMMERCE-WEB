@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Mart - Premium Shopping Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <div class="splash-content">
+            <h1>Welcome to <span>Elite Mart</span></h1>
+            <p>Loading latest fashion & electronics...</p>
+            <div class="splash-icons">
+                <i class="fas fa-tshirt"></i>
+                <i class="fas fa-laptop"></i>
+                <i class="fas fa-child"></i>
+                <i class="fas fa-shoe-prints"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Elite <span>Mart</span></div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products..." aria-label="Search products">
+            <button type="button" aria-label="Search"><i class="fas fa-search"></i></button>
+        </div>
+
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <div class="dropdown">
+                <a href="#categories" aria-haspopup="true" aria-expanded="false">Categories <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#electronics">Electronics</a>
+                    <a href="#fashion">Fashion</a>
+                    <a href="#kids">Kids</a>
+                    <a href="#footwear">Footwear</a>
+                </div>
+            </div>
+            <a href="#deals">Deals</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-icons">
+            <div class="icon-container wishlist-icon-container" aria-label="Wishlist">
+                <i class="fas fa-heart"></i>
+                <span class="wishlist-count">0</span>
+            </div>
+            <div class="icon-container cart-icon-container" aria-label="Shopping Cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="icon-container user-icon-container" aria-label="User Account">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="home">
+        <div class="welcome-content">
+            <h1>Welcome to Elite Mart</h1>
+            <p>All kinds of Products Just for You!</p>
+            <a href="#electronics" class="shop-button">Shop Now 🛒</a>
+        </div>
+    </section>
+
+    <main>
+        <!-- Electronics Section -->
+        <section id="electronics" class="product-section">
+            <h2 class="section-title">Electronics</h2>
+            <div class="product-container">
+                <!-- Product items will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Fashion Section -->
+        <section id="fashion" class="product-section">
+            <h2 class="section-title">Fashion</h2>
+            <div class="product-container">
+                <!-- Product items will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Kids Section -->
+        <section id="kids" class="product-section">
+            <h2 class="section-title">Kids Collection</h2>
+            <div class="product-container">
+                <!-- Product items will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Footwear Section -->
+        <section id="footwear" class="product-section">
+            <h2 class="section-title">Footwear Collection</h2>
+            <div class="product-container">
+                <!-- Product items will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- Deals Section (will be created dynamically) -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <!-- About -->
+            <div class="footer-section">
+                <h3>About Elite Mart</h3>
+                <p>
+                    Welcome to Elite Mart! Your premier destination for luxury fashion,
+                    premium electronics, and lifestyle products.
+                </p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-envelope"></i> #elitemart@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +91 1234567899</li>
+                    <li><i class="fas fa-map-marker-alt"></i>##123 Shopping Street, slaes City</li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#electronics">Electronics</a></li>
+                    <li><a href="#fashion">Fashion</a></li>
+                    <li><a href="#kids">Kids</a></li>
+                    <li><a href="#footwear">Footwear</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/16vnkmA9SQ/" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/Hussain7basha?t=5ZMMNUxSmpVHL1IxnMb_gg&s=09" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/futurestacks97?igsh=aDlvd3cxa3JidG90" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+                
+                <!-- Newsletter Subscription -->
+                <div class="newsletter">
+                    <h4>Subscribe to our newsletter</h4>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Elite Mart. All Rights Reserved.
+                @shaikhussainbasha
+            </p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-apple-pay"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart (<span class="cart-count">0</span>)</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <div class="empty-cart">Your cart is empty</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">Total: ₹<span>0.00</span></div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>Login / Register</h2>
+            <div class="form-group">
+                <input type="email" id="login-email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" id="login-password" placeholder="Password">
+            </div>
+            <button class="login-btn">Login</button>
+            <button class="register-btn">Register</button>
+        </div>
+    </div>
+
+    <!-- User Profile Modal -->
+    <div class="modal" id="profile-modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>My Account</h2>
+            <div class="profile-info">
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span id="profile-email" class="info-value"></span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <span id="profile-phone" class="info-value"></span>
+                    <button class="edit-btn" data-field="phone">Edit</button>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Address:</span>
+                    <span id="profile-address" class="info-value"></span>
+                    <button class="edit-btn" data-field="address">Edit</button>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Total Spent:</span>
+                    <span id="profile-total-spent" class="info-value">₹0.00</span>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <button class="view-orders-btn">My Orders</button>
+                <button class="view-wishlist-btn">My Wishlist</button>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Profile Modal -->
+    <div class="modal" id="edit-modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>Edit Profile</h2>
+            <div class="form-group">
+                <label for="edit-phone">Phone Number</label>
+                <input type="tel" id="edit-phone" placeholder="Enter phone number">
+            </div>
+            <div class="form-group">
+                <label for="edit-address">Delivery Address</label>
+                <textarea id="edit-address" placeholder="Enter delivery address"></textarea>
+            </div>
+            <button class="save-profile-btn">Save Changes</button>
+        </div>
+    </div>
+
+    <!-- Orders Modal -->
+    <div class="modal" id="orders-modal">
+        <div class="modal-content wide-modal">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>My Orders</h2>
+            <div class="orders-list">
+                <div class="empty-orders">You haven't placed any orders yet</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div class="modal" id="wishlist-modal">
+        <div class="modal-content wide-modal">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>My Wishlist</h2>
+            <div class="wishlist-items">
+                <div class="empty-wishlist">Your wishlist is empty</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkout-modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <h2>Checkout</h2>
+            
+            <div class="checkout-summary">
+                <div class="summary-item">
+                    <span>Items Total:</span>
+                    <span id="checkout-items-total">₹0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span>Delivery Fee:</span>
+                    <span>₹50.00</span>
+                </div>
+                <div class="summary-item total">
+                    <span>Order Total:</span>
+                    <span id="checkout-total">₹0.00</span>
+                </div>
+            </div>
+            
+            <div class="delivery-info">
+                <h3>Delivery Information</h3>
+                <div class="form-group">
+                    <input type="text" id="delivery-name" placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="delivery-phone" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <textarea id="delivery-address" placeholder="Delivery Address"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="delivery-date">Preferred Delivery Date</label>
+                    <input type="date" id="delivery-date">
+                </div>
+            </div>
+            
+            <button class="place-order-btn">Place Order</button>
+        </div>
+    </div>
+
+    <!-- Order Success Modal -->
+    <div class="modal" id="order-success-modal">
+        <div class="modal-content">
+            <span class="close-modal"><i class="fas fa-times"></i></span>
+            <div class="order-success-content">
+                <i class="fas fa-check-circle"></i>
+                <h2>Order Placed Successfully!</h2>
+                <p>Your order has been confirmed. You will receive an email with the order details.</p>
+                <p>Order ID: <span id="order-id"></span></p>
+                <p>Estimated Delivery: <span id="estimated-delivery"></span></p>
+                <button class="continue-shopping-btn">Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification"></div>
+
+    <!-- Loading Spinner (for product images) -->
+    <div class="loading-spinner" id="loading-spinner">
+        <i class="fas fa-spinner fa-spin"></i>
+    </div>
+
+<script src="product.js"></script>
+<script src="script.js"></script>
+<script src="user.js"></script>
+</body>
+</html>
